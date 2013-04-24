@@ -1,10 +1,14 @@
 flymake-json.el
 ===============
 
-An Emacs flymake handler for syntax-checking JSON data.
+An Emacs flymake handler for syntax-checking JSON using `jsonlint`.
 
 Installation
 =============
+
+First install `jsonlint`, e.g. via `npm`:
+
+    npm install jsonlint -g
 
 If you choose not to use one of the convenient packages in
 [Melpa][melpa] and [Marmalade][marmalade], you'll need to add the

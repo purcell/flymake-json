@@ -7,7 +7,12 @@
 ;;
 ;;; Commentary:
 ;;
+;; This package requires the "jsonlint" program, which can be installed using npm:
+;;
+;;    npm install jsonlint -g
+;;
 ;; Usage:
+;;
 ;;   (require 'flymake-json)
 ;;
 ;; Then, if you're using `json-mode':
