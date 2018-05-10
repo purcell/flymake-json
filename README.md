@@ -25,7 +25,7 @@ Add the following to your emacs init file:
 
 Then, if you're using `json-mode':
 
-    (add-hook 'json-mode 'flymake-json-load)
+    (add-hook 'json-mode-hook 'flymake-json-load)
 
 or, if you use `js-mode' for json:
 
