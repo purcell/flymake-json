@@ -21,7 +21,7 @@ Usage
 
 Add the following to your emacs init file:
 
-    (require 'flymake-haml) ;; not required if installed from a package
+    (require 'flymake-json) ;; not required if installed from a package
 
 Then, if you're using `json-mode':
 
